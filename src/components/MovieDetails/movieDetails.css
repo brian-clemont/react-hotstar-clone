@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 90vh;
+    filter: brightness(0.5);
+}
+
+.container .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    width: 50%;
+}
+
+.movie-details-body {
+    padding: 1px 10px;
+}
+.movie-details-body .title{
+   font-size: 5rem;
+}
+
+.movie-details-body .overview{
+    overflow: hidden;
+    white-space: wrap; 
+    font-size: 1.5rem;
+    /* width: 50%; */
+}
+.separator{
+display: none;
+}
+
+.pga-rating{
+    background-color: #777777;
+    text-align: center;
+    padding: 4px 6px;
+    border-radius: 5px;
+}

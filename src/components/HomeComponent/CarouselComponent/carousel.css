@@ -1,0 +1,61 @@
+.image-container{
+    position: relative;
+    cursor: pointer;
+}
+
+.image-container .contents{
+}
+.image-container .title{
+
+}
+.image-container .pga-rating{
+    background-color: #777777;
+    text-align: center;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+.image-container .overview{
+    word-wrap: break-word;
+    width: 30%;
+}
+.contents{
+    position: absolute;
+    left: 15px;
+    bottom: 22px;
+    color: white;
+    padding: 4px;
+    font-size: 17px;
+    line-height: 18px;
+    z-index: 10;;
+}
+/* 
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  } */
+  
+  .carousel-image {
+    filter: brightness(70%);
+  }
+  .carousel-image img {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: top;
+
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  .prev { left: 10px; }
+  .next { right: 10px; }
